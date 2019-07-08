@@ -1,0 +1,48 @@
+.my-footer-bg {
+  background-color: #2a2e2f;
+}
+
+.my-footer-group {
+  width: 220px;
+}
+
+.my-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  font-size: 8pt;
+  color: #e1e1e1;
+  text-decoration: none;
+}
+
+.my-line {
+  color: #e1e1e1;
+  margin: 0 10px 0 10px;
+}
+
+.my-year {
+  margin: 0;
+  display: block;
+}
+
+.fixed-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+@media (min-width: 1140px) {
+  .my-footer-bg {
+    height: 55px;
+  }
+  .my-footer-group {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .my-others {
+    position: relative;
+    top: -8px;
+  }
+}

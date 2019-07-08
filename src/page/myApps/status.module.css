@@ -1,0 +1,25 @@
+.myStatusGreen {
+  position: absolute;
+  z-index: 1;
+  width: 70px;
+  height: 20px;
+  background-color: #50bd9c;
+  border-radius: 20px;
+  left: 10px;
+  top: 10px;
+  font-size: 14px;
+  color: white;
+}
+
+.myStatusRed {
+  position: absolute;
+  z-index: 1;
+  width: 80px;
+  height: 20px;
+  background-color: #e25169;
+  border-radius: 20px;
+  left: 10px;
+  top: 10px;
+  font-size: 13px;
+  color: white;
+}

@@ -1,0 +1,29 @@
+.my-app-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-body {
+  width: 410px;
+  padding-top: 10px;
+  padding-bottom: 120px;
+  flex-shrink: 0;
+}
+
+@media (max-width: 540px) {
+  .app-body {
+    width: 280px;
+  }
+}
+
+@media (min-width: 720px) {
+  .app-body {
+    width: 630px;
+  }
+}
+
+@media (min-width: 1140px) {
+  .app-body {
+    width: 1070px;
+  }
+}

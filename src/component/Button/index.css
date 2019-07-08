@@ -1,0 +1,9 @@
+.my-btn {
+  outline: none;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  background-color: transparent;
+  border-radius: 2px;
+}

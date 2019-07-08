@@ -1,0 +1,44 @@
+.my-star {
+  margin-left: 4px;
+  height: 10px;
+  width: 10px;
+}
+
+.five-stars {
+  padding-left: 5px;
+  margin: 0 6px 0 6px;
+  top: -2px;
+}
+
+.rates {
+  padding: 0;
+  margin-top: 0;
+  text-align: left;
+  font-weight: bold;
+  -ms-flex-preferred-size: 0;
+  flex-basis: 0;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+@media (max-width: 540px) {
+  .my-star {
+    margin-left: 4px;
+    height: 8px;
+    width: 8px;
+  }
+
+  .five-stars {
+    padding: 0;
+    margin: 0 6px 0 6px;
+    top: -6px;
+  }
+
+  .rates {
+    padding-top: 5px;
+    text-align: left;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
